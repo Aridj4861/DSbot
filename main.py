@@ -1,5 +1,5 @@
 import discord
- 
+import os
  
 client = discord.Client()
 @client.event
@@ -22,7 +22,5 @@ async def on_message(message):
     if message.content.startswith('Пока'):
         await message.channel.send('Ага Нет')    
  
- 
-my_secret = os.sistem['TOKEN']
-client.run('my_secret')
- 
+my_secret = os.environ['TOKEN']
+client.run(my_secret)

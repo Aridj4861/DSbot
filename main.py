@@ -23,6 +23,6 @@ async def on_message(message):
         await message.channel.send('Ага Нет')    
  
  
-my_secret = os.sistem['TOKEN']
-client.run('my_secret')
+
+client.run('ODM4MDM0OTQ4NTkzMTU2MTU3.YI1O3Q.F86mj-dzN6vFNUb0-ytW1hg1TZo')
  
